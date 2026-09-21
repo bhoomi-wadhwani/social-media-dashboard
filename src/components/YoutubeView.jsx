@@ -98,7 +98,7 @@ export default function YoutubeView() {
           const videoCount  = parseInt(chStats.videoCount ?? 0);
           const avgViews    = videoCount > 0 ? Math.round(totalViews / videoCount) : 0;
 
-          const res = await fetch('http://localhost:3001/api/insights', {
+          const res = await fetch('/api/insights', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
