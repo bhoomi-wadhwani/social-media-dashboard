@@ -1,4 +1,6 @@
-# Social Media Dashboard
+﻿# Social Media Dashboard
+
+Live: https://social-media-dashboard-woad-five.vercel.app
 
 A YouTube analytics dashboard that pulls real channel data and runs it through an AI to give you actual insights on what is and isnt working. Built with React on the frontend and a small Express server on the backend that handles the AI calls.
 
